@@ -5,7 +5,7 @@ from typing import Any, Dict, Optional
 import coloredlogs
 import numpy as np
 
-from .kernel import Kernel
+from .kernel import Kernel #had .kernel
 from .utils import subdict
 
 

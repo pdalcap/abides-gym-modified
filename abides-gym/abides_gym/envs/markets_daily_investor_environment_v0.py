@@ -1,7 +1,7 @@
 import importlib
 from typing import Any, Dict, List
 
-import gym
+import gymnasium
 import numpy as np
 
 import abides_markets.agents.utils as markets_agent_utils

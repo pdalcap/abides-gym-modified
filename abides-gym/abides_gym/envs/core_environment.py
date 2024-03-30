@@ -2,9 +2,9 @@ from copy import deepcopy
 from abc import abstractmethod, ABC
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
-import gym
+import gymnasium
 import numpy as np
-from gym.utils import seeding
+from gymnasium.utils import seeding
 
 from abides_core import Kernel, NanosecondTime
 from abides_core.generators import InterArrivalTimeGenerator
@@ -12,7 +12,7 @@ from abides_core.utils import subdict
 from abides_markets.utils import config_add_agents
 
 
-class AbidesGymCoreEnv(gym.Env, ABC):
+class AbidesGymCoreEnv(gymnasium.Env, ABC):
     """
     Abstract class for core gym to inherit from to create usable specific ABIDES Gyms
     """
